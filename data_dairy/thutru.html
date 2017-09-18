@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+      LUNCH_DATADIARY
+    </title>
+
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer');
+
+    body{
+      background-image: url("img/pngbg3.png");
+    }
+
+    h1{
+      text-align: center;
+      border: 30px solid transparent;
+      border-image: url("img/mochiborder.png") 30 round;
+      font-family: 'IM Fell Great Primer', serif;
+    }
+
+    .section1{
+      border: 30px solid transparent;
+      border-image: url("img/mochiborder.png") 30 round;
+      font-family: 'IM Fell Great Primer', serif;
+    }
+
+    .imgg{
+      transform: rotate(90deg);
+    }
+
+    .cookiebuttom{
+      position:fixed;
+      right:30px;
+      bottom:10px;
+    }
+    span:hover{
+      cursor:pointer;
+      opacity:0.75;
+    }
+
+    .footer{
+      position:fixed;
+      right:0;
+      bottom:0;
+      font-family: 'IM Fell Great Primer', serif;
+    }
+
+    button{
+
+    }
+
+    </style>
+  </head>
+
+
+  <body>
+    <h1>Thursday's Lunch.</h1>
+    <section class="section1">
+      <a><img src="img/IMG_1944.JPG"
+              width=30%
+              height=30%
+              class="imgg";></img></a>
+      <p>THE THIRD DISH OF CABBAGE.</p>
+      <p>No intention of joking. Because there will have a fourth one.</p>
+    </section>
+
+  <div class="cookiebuttom">
+  <p> <span onclick="goBack()"><img src="img/back.png"
+                             width="100px";
+                             height="50px";></spam></p>
+  </div>
+
+  <script>
+function goBack() {
+    window.history.back();
+}
+</script>
+  <div class="footer"><footer>Sharlotte Zhou &copy; 2017</footer></div>
+  </body>
+</html>
